@@ -7,6 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AF10C0CC17594ABE00C99163 /* concertimage1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AF10C0C817594ABE00C99163 /* concertimage1.jpg */; };
+		AF10C0CD17594ABE00C99163 /* concertimage3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AF10C0C917594ABE00C99163 /* concertimage3.jpg */; };
+		AF10C0CE17594ABE00C99163 /* concertimage4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AF10C0CA17594ABE00C99163 /* concertimage4.jpg */; };
+		AF10C0CF17594ABE00C99163 /* concertimages2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AF10C0CB17594ABE00C99163 /* concertimages2.jpg */; };
+		AF10C0D117594ACC00C99163 /* Icon72.png in Resources */ = {isa = PBXBuildFile; fileRef = AF10C0D017594ACC00C99163 /* Icon72.png */; };
+		AF49B1011729F103002BE586 /* DetailView.xib in Resources */ = {isa = PBXBuildFile; fileRef = AF49B1001729F103002BE586 /* DetailView.xib */; };
+		AFBB5685172475B300320FC1 /* Event.m in Sources */ = {isa = PBXBuildFile; fileRef = AFBB5684172475B300320FC1 /* Event.m */; };
+		AFBE04E21723A09200E5E127 /* EventList.xib in Resources */ = {isa = PBXBuildFile; fileRef = AFBE04E11723A09200E5E127 /* EventList.xib */; };
+		AFBE04E51723A0D700E5E127 /* EventViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AFBE04E41723A0D700E5E127 /* EventViewController.m */; };
+		AFBE04E81723CA1700E5E127 /* XMLParser.m in Sources */ = {isa = PBXBuildFile; fileRef = AFBE04E71723CA1600E5E127 /* XMLParser.m */; };
+		AFEEF359172A0BE3000E58F2 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AFEEF358172A0BE3000E58F2 /* DetailViewController.m */; };
 		AFFC53691720FC7000E68ED0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AFFC53681720FC7000E68ED0 /* UIKit.framework */; };
 		AFFC536B1720FC7000E68ED0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AFFC536A1720FC7000E68ED0 /* Foundation.framework */; };
 		AFFC536D1720FC7000E68ED0 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AFFC536C1720FC7000E68ED0 /* CoreGraphics.framework */; };
@@ -24,6 +35,10 @@
 		AFFC538F1720FC7000E68ED0 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AFFC536E1720FC7000E68ED0 /* CoreData.framework */; };
 		AFFC53971720FC7000E68ED0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AFFC53951720FC7000E68ED0 /* InfoPlist.strings */; };
 		AFFC539A1720FC7000E68ED0 /* EventBriteTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AFFC53991720FC7000E68ED0 /* EventBriteTests.m */; };
+		AFFC53A81720FE7B00E68ED0 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AFFC53A71720FE7B00E68ED0 /* RootViewController.m */; };
+		AFFC53AA172105F900E68ED0 /* iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = AFFC53A9172105F900E68ED0 /* iPhone.xib */; };
+		AFFC53AC1721278200E68ED0 /* Login.xib in Resources */ = {isa = PBXBuildFile; fileRef = AFFC53AB1721278200E68ED0 /* Login.xib */; };
+		AFFC53AE172200F500E68ED0 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AFFC53AD172200F500E68ED0 /* QuartzCore.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,6 +52,21 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		AF10C0C817594ABE00C99163 /* concertimage1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = concertimage1.jpg; path = Images/concertimage1.jpg; sourceTree = SOURCE_ROOT; };
+		AF10C0C917594ABE00C99163 /* concertimage3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = concertimage3.jpg; path = Images/concertimage3.jpg; sourceTree = SOURCE_ROOT; };
+		AF10C0CA17594ABE00C99163 /* concertimage4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = concertimage4.jpg; path = Images/concertimage4.jpg; sourceTree = SOURCE_ROOT; };
+		AF10C0CB17594ABE00C99163 /* concertimages2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = concertimages2.jpg; path = Images/concertimages2.jpg; sourceTree = SOURCE_ROOT; };
+		AF10C0D017594ACC00C99163 /* Icon72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Icon72.png; path = Images/Icon72.png; sourceTree = "<group>"; };
+		AF49B1001729F103002BE586 /* DetailView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = DetailView.xib; path = ../DetailView.xib; sourceTree = "<group>"; };
+		AFBB5683172475B300320FC1 /* Event.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Event.h; sourceTree = "<group>"; };
+		AFBB5684172475B300320FC1 /* Event.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Event.m; sourceTree = "<group>"; };
+		AFBE04E11723A09200E5E127 /* EventList.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EventList.xib; sourceTree = "<group>"; };
+		AFBE04E31723A0D700E5E127 /* EventViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EventViewController.h; sourceTree = "<group>"; };
+		AFBE04E41723A0D700E5E127 /* EventViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EventViewController.m; sourceTree = "<group>"; };
+		AFBE04E61723CA1600E5E127 /* XMLParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMLParser.h; sourceTree = "<group>"; };
+		AFBE04E71723CA1600E5E127 /* XMLParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMLParser.m; sourceTree = "<group>"; };
+		AFEEF357172A0BE3000E58F2 /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		AFEEF358172A0BE3000E58F2 /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
 		AFFC53651720FC7000E68ED0 /* EventBrite.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EventBrite.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AFFC53681720FC7000E68ED0 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		AFFC536A1720FC7000E68ED0 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -58,6 +88,11 @@
 		AFFC53961720FC7000E68ED0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		AFFC53981720FC7000E68ED0 /* EventBriteTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EventBriteTests.h; sourceTree = "<group>"; };
 		AFFC53991720FC7000E68ED0 /* EventBriteTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EventBriteTests.m; sourceTree = "<group>"; };
+		AFFC53A61720FE7B00E68ED0 /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		AFFC53A71720FE7B00E68ED0 /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		AFFC53A9172105F900E68ED0 /* iPhone.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = iPhone.xib; sourceTree = "<group>"; };
+		AFFC53AB1721278200E68ED0 /* Login.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Login.xib; sourceTree = "<group>"; };
+		AFFC53AD172200F500E68ED0 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +100,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AFFC53AE172200F500E68ED0 /* QuartzCore.framework in Frameworks */,
 				AFFC53691720FC7000E68ED0 /* UIKit.framework in Frameworks */,
 				AFFC536B1720FC7000E68ED0 /* Foundation.framework in Frameworks */,
 				AFFC536D1720FC7000E68ED0 /* CoreGraphics.framework in Frameworks */,
@@ -89,6 +125,7 @@
 		AFFC535C1720FC7000E68ED0 = {
 			isa = PBXGroup;
 			children = (
+				AF10C0D017594ACC00C99163 /* Icon72.png */,
 				AFFC53701720FC7000E68ED0 /* EventBrite */,
 				AFFC53921720FC7000E68ED0 /* EventBriteTests */,
 				AFFC53671720FC7000E68ED0 /* Frameworks */,
@@ -108,6 +145,7 @@
 		AFFC53671720FC7000E68ED0 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				AFFC53AD172200F500E68ED0 /* QuartzCore.framework */,
 				AFFC53681720FC7000E68ED0 /* UIKit.framework */,
 				AFFC536A1720FC7000E68ED0 /* Foundation.framework */,
 				AFFC536C1720FC7000E68ED0 /* CoreGraphics.framework */,
@@ -122,6 +160,20 @@
 			children = (
 				AFFC53791720FC7000E68ED0 /* AppDelegate.h */,
 				AFFC537A1720FC7000E68ED0 /* AppDelegate.m */,
+				AFFC53A61720FE7B00E68ED0 /* RootViewController.h */,
+				AFFC53A71720FE7B00E68ED0 /* RootViewController.m */,
+				AFBE04E31723A0D700E5E127 /* EventViewController.h */,
+				AFBE04E41723A0D700E5E127 /* EventViewController.m */,
+				AFEEF357172A0BE3000E58F2 /* DetailViewController.h */,
+				AFEEF358172A0BE3000E58F2 /* DetailViewController.m */,
+				AFBB5683172475B300320FC1 /* Event.h */,
+				AFBB5684172475B300320FC1 /* Event.m */,
+				AFBE04E61723CA1600E5E127 /* XMLParser.h */,
+				AFBE04E71723CA1600E5E127 /* XMLParser.m */,
+				AF49B1001729F103002BE586 /* DetailView.xib */,
+				AFFC53A9172105F900E68ED0 /* iPhone.xib */,
+				AFBE04E11723A09200E5E127 /* EventList.xib */,
+				AFFC53AB1721278200E68ED0 /* Login.xib */,
 				AFFC53821720FC7000E68ED0 /* EventBrite.xcdatamodeld */,
 				AFFC53711720FC7000E68ED0 /* Supporting Files */,
 			);
@@ -131,6 +183,10 @@
 		AFFC53711720FC7000E68ED0 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				AF10C0C817594ABE00C99163 /* concertimage1.jpg */,
+				AF10C0C917594ABE00C99163 /* concertimage3.jpg */,
+				AF10C0CA17594ABE00C99163 /* concertimage4.jpg */,
+				AF10C0CB17594ABE00C99163 /* concertimages2.jpg */,
 				AFFC53721720FC7000E68ED0 /* EventBrite-Info.plist */,
 				AFFC53731720FC7000E68ED0 /* InfoPlist.strings */,
 				AFFC53761720FC7000E68ED0 /* main.m */,
@@ -236,6 +292,15 @@
 				AFFC537D1720FC7000E68ED0 /* Default.png in Resources */,
 				AFFC537F1720FC7000E68ED0 /* Default@2x.png in Resources */,
 				AFFC53811720FC7000E68ED0 /* Default-568h@2x.png in Resources */,
+				AFFC53AA172105F900E68ED0 /* iPhone.xib in Resources */,
+				AFFC53AC1721278200E68ED0 /* Login.xib in Resources */,
+				AFBE04E21723A09200E5E127 /* EventList.xib in Resources */,
+				AF49B1011729F103002BE586 /* DetailView.xib in Resources */,
+				AF10C0CC17594ABE00C99163 /* concertimage1.jpg in Resources */,
+				AF10C0CD17594ABE00C99163 /* concertimage3.jpg in Resources */,
+				AF10C0CE17594ABE00C99163 /* concertimage4.jpg in Resources */,
+				AF10C0CF17594ABE00C99163 /* concertimages2.jpg in Resources */,
+				AF10C0D117594ACC00C99163 /* Icon72.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,6 +338,11 @@
 				AFFC53771720FC7000E68ED0 /* main.m in Sources */,
 				AFFC537B1720FC7000E68ED0 /* AppDelegate.m in Sources */,
 				AFFC53841720FC7000E68ED0 /* EventBrite.xcdatamodeld in Sources */,
+				AFFC53A81720FE7B00E68ED0 /* RootViewController.m in Sources */,
+				AFBE04E51723A0D700E5E127 /* EventViewController.m in Sources */,
+				AFBE04E81723CA1700E5E127 /* XMLParser.m in Sources */,
+				AFBB5685172475B300320FC1 /* Event.m in Sources */,
+				AFEEF359172A0BE3000E58F2 /* DetailViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -447,6 +517,7 @@
 				AFFC539F1720FC7000E68ED0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AFFC53A01720FC7000E68ED0 /* Build configuration list for PBXNativeTarget "EventBriteTests" */ = {
 			isa = XCConfigurationList;
@@ -455,6 +526,7 @@
 				AFFC53A21720FC7000E68ED0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

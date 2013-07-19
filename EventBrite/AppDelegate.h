@@ -7,10 +7,17 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "RootViewController.h"
+#import <QuartzCore/QuartzCore.h>
 
 @interface AppDelegate : UIResponder <UIApplicationDelegate>
-
+{
+    RootViewController *rootViewController;
+    CALayer *layer;
+}
 @property (strong, nonatomic) UIWindow *window;
+
+
 
 @property (readonly, strong, nonatomic) NSManagedObjectContext *managedObjectContext;
 @property (readonly, strong, nonatomic) NSManagedObjectModel *managedObjectModel;

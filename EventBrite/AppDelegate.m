@@ -14,13 +14,22 @@
 @synthesize managedObjectModel = _managedObjectModel;
 @synthesize persistentStoreCoordinator = _persistentStoreCoordinator;
 
+
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
+    
+   NSLog(@"step 1");
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+    
+    NSLog(@"step 2");
+    
     // Override point for customization after application launch.
-    self.window.backgroundColor = [UIColor whiteColor];
+    rootViewController = [[RootViewController alloc] init];
+    self.window.rootViewController = rootViewController;
+    //self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
     return YES;
+    
 }
 
 - (void)applicationWillResignActive:(UIApplication *)application
